@@ -1,0 +1,44 @@
+.UserList {
+  max-width: 623px;
+  min-height: 70px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #c5dfff;
+  border-radius: 8px 8px 0px 0px;
+}
+h1 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+
+  color: #000000;
+}
+
+.listItem:hover {
+  background-color: #d5d5d5;
+}
+.listItem {
+  max-width: 623px;
+  min-height: 66px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 8px 10px;
+  gap: 20px;
+  background-color: #ececec;
+
+  border-radius: 4px;
+}
+
+.image {
+  width: 62px;
+  height: 62px;
+  border-radius: 50%;
+  margin-left: 20px;
+  font-size: 10px;
+}

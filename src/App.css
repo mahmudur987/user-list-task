@@ -1,0 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@500&family=Montserrat&display=swap");
+
+.app {
+  min-height: 100vh;
+  max-width: 1600px;
+  width: 100%;
+  display: flex;
+  font-family: "Montserrat";
+}
