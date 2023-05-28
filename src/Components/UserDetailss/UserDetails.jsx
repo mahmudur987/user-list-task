@@ -6,7 +6,7 @@ import "./UserDetails.css";
 export const UserDetails = ({ selectedData }) => {
   if (!selectedData) {
     return (
-      <div className=" w-100 d-flex flex-column gap-3">
+      <div className=" w-100 d-flex flex-column gap-3 position-sticky top-0 ">
         <div className="UserDetailsHeader">
           <h1>USER DETAILS</h1>{" "}
         </div>
@@ -19,7 +19,7 @@ export const UserDetails = ({ selectedData }) => {
   const [Error, setError] = useState(false);
   const [loading, setloading] = useState(true);
 
-  const handleImageError = (e) => {
+  const handleImageError = () => {
     setError(true);
     setloading(false);
   };
