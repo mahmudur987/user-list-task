@@ -67,7 +67,7 @@ export const UserList = ({ data, onItemClick, error, loading }) => {
               {Loading && <p className="fw-bolder">loading</p>}
             </div>
 
-            <h3 className="fw-bolder">
+            <h3 className="fw-bolder fs-2">
               {" "}
               {item?.profile?.firstName} {item?.profile?.lastName}{" "}
             </h3>
